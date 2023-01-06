@@ -3,6 +3,7 @@
     grid-template-columns: 1fr 1fr;
     background-color: var(--cor-p1);
     overflow: hidden;
+    position: relative;
 }
 
 .depoimento img {
@@ -57,4 +58,26 @@
         max-height: 200px;
     }
 
+}
+
+@media (max-width: 600px) {
+    .depoimento p::before {
+        font-size: 2.5rem;
+        left: 0px;
+    }
+    
+    .depoimento p::after {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .depoimento p::before {
+        font-size: 2rem;
+        left: -10px;
+        top: -5px;
+    }
+    .depoimento p::after {
+        font-size: 2rem;
+    }
 }
