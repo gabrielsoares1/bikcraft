@@ -3,3 +3,6 @@
 @import "./home/introducao.css";
 @import "./componentes/botao.css";
 @import "./componentes/tipografia.css";
+@import "./componentes/cores.css";
+@import "./bicicletas/bicicletas-lista.css";
+@import "./componentes/container.css";
