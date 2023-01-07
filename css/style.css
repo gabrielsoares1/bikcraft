@@ -9,6 +9,7 @@
 @import "./componentes/botao.css";
 @import "./componentes/tipografia.css";
 @import "./componentes/cores.css";
-@import "./bicicletas/bicicletas-lista.css";
 @import "./componentes/container.css";
-
+@import "./componentes/titulo.css";
+@import "./bicicletas/bicicletas-lista.css";
+@import "./termos/termos.css"
