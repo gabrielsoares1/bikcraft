@@ -6,6 +6,8 @@
 @import "./home/depoimento.css";
 @import "./global/footer.css";
 @import "./seguros/seguros.css";
+@import "./seguros/perguntas.css";
+@import "./seguros/vantagens.css";
 @import "./componentes/botao.css";
 @import "./componentes/tipografia.css";
 @import "./componentes/cores.css";
