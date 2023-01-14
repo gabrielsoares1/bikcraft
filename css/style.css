@@ -15,4 +15,6 @@
 @import "./componentes/titulo.css";
 @import "./bicicletas/bicicletas-lista.css";
 @import "./bicicletas/bicicletas.css";
+@import "./bicicletas/bicicleta.css";
+@import "./bicicletas/seguro.css";
 @import "./termos/termos.css"
