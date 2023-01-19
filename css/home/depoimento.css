@@ -3,7 +3,6 @@
     grid-template-columns: 1fr 1fr;
     background-color: var(--cor-p1);
     overflow: hidden;
-    position: relative;
 }
 
 .depoimento img {
@@ -20,7 +19,7 @@
 
 .depoimento-conteudo p {
     max-width: 32ch;
-    font-family: "Merriweather";
+    font-family: "Merriweather", serif;
     font-style: italic;
     font-weight: 900;
     margin-bottom: 32px;
@@ -52,12 +51,12 @@
     .depoimento-conteudo {
         padding: 40px 20px;
         justify-self: center;
+        margin: auto;
     }
 
     .depoimento img {
         max-height: 200px;
     }
-
 }
 
 @media (max-width: 600px) {
