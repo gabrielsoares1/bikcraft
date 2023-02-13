@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bicicletas | Bikcraft</title>
     <meta name="description" content="Bicicletas">
-    <link rel="preload" href="./css/style.css" as="style">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./favicon.svg" type="image+xml" type="image/x-icon">
+    <link rel="preload" href="./css/style.min.css" as="style">
+    <link rel="stylesheet" href="./css/style.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 <script>document.documentElement.classList.add('js');</script>
 </head>
 
@@ -39,7 +42,7 @@
 
         
         <div class="bicicletas container">
-            <div class="bicicletas-imagem">
+            <div class="bicicletas-imagem fadeInLeft" data-anime="200">
                 <img src="./img/bicicletas/nimbus.jpg" alt="Bicicleta Preta">
                 <span class="font-2-m cor-0">R$ 4999</span>
             </div>
@@ -54,14 +57,14 @@
                     <li><img src="./img/icones/rastreador.svg" alt="icone eletrica">Rastreador</li> 
                 </ul>
 
-                <a class="botao seta" href="./bicicletas/nimbus.html">+ informações</a>
+                <a class="botao seta fadeInRight" data-anime="200" href="./bicicletas/nimbus.html">+ informações</a>
             </div>
         </div>
 
 
         <div class="bicicletas-bg">
             <div class="bicicletas container">
-                <div class="bicicletas-imagem">
+                <div class="bicicletas-imagem fadeInLeft" data-anime="400">
                     <img src="./img/bicicletas/magic.jpg" alt="Bicicleta Preta">
                     <span class="font-2-m cor-0">R$ 2499</span>
                 </div>
@@ -75,14 +78,14 @@
                        <li><img src="./img/icones/velocidade.svg" alt="icone eletrica">40 km/h</li> 
                        <li><img src="./img/icones/rastreador.svg" alt="icone eletrica">Rastreador</li> 
                     </ul>
-                    <a class="botao seta" href="./bicicletas/magic.html">+ informações</a>
+                    <a class="botao seta fadeInRight" data-anime="400" href="./bicicletas/magic.html">+ informações</a>
                 </div>
             </div>
         </div>
 
 
         <div class="bicicletas container">
-            <div class="bicicletas-imagem">
+            <div class="bicicletas-imagem fadeInLeft" data-anime="600">
                 <img src="./img/bicicletas/nebula.jpg" alt="Bicicleta Preta">
                 <span class="font-2-m cor-0">R$ 3999</span>
             </div>
@@ -96,7 +99,7 @@
                     <li><img src="./img/icones/velocidade.svg" alt="icone eletrica">45 km/h</li> 
                     <li><img src="./img/icones/rastreador.svg" alt="icone eletrica">Rastreador</li> 
                 </ul>
-                <a class="botao seta" href="./bicicletas/nebula.html">+ informações</a>
+                <a class="botao seta fadeInRight" data-anime="600" href="./bicicletas/nebula.html">+ informações</a>
             </div>
         </div>
     </main>
@@ -140,7 +143,8 @@
             <p class="footer-copy font-2-m cor-6">Bikcraft © Alguns direitos reservados.</p>
         </div>
     </footer>
-    
-<script src="./js/script.js"></script>
+
+    <script src="./js/plugins/simple-anime.js"></script>;
+    <script src="./js/script.js"></script>
 </body>
 </html>

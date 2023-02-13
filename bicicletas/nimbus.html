@@ -6,8 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nimbus | Bikcraft</title>
     <meta name="description" content="Página da Bicicleta Interna">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../favicon.svg" type="image+xml" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 <script>document.documentElement.classList.add('js');</script>
 </head>
 
@@ -38,19 +41,19 @@
         </div>
         <div class="bicicleta container">
             <div class="bicicleta-imagens">
-                <img src="../img/bicicleta/nimbus1.jpg" alt="Bicicleta Nimbus Stark 1">
-                <img src="../img/bicicleta/nimbus2.jpg" alt="Bicicleta Nimbus Stark 2">
-                <img src="../img/bicicleta/nimbus3.jpg" alt="Bicicleta Nimbus Stark 3">
+                <img src="../img/bicicleta/nimbus1.jpg" alt="Bicicleta Nimbus Stark 1" data-anime="200" class="fadeInDown">
+                <img src="../img/bicicleta/nimbus2.jpg" alt="Bicicleta Nimbus Stark 2" data-anime="400" class="fadeInDown">
+                <img src="../img/bicicleta/nimbus3.jpg" alt="Bicicleta Nimbus Stark 3" data-anime="600" class="fadeInDown">
             </div>
             <div class="bicicleta-conteudo">
                 <p class="font-2-l cor-5 p-conteudo">A Nimbus Stark é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios, o que garante maior velocidade.</p>
                 <div class="bicicleta-comprar">
-                    <a class="botao" href="../orcamento.html?tipo=bikcraft&produto=nimbus">Comprar Agora</a>
-                    <span class="font-1-xs cor-6"><img class="icone-entrega" src="../img/icones/entrega.svg" alt="ícone de entrega">entrega em 5 dias</span>
-                    <span class="font-1-xs cor-6"><img class="icone-estoque" src="../img/icones/estoque.svg" alt="ícone de estoque">18 em estoque</span>
+                    <a class="botao fadeInLeft" data-anime="200" href="../orcamento.html?tipo=bikcraft&produto=nimbus">Comprar Agora</a>
+                    <span class="font-1-xs cor-6 fadeInLeft" data-anime="200"><img class="icone-entrega" src="../img/icones/entrega.svg" alt="ícone de entrega">entrega em 5 dias</span>
+                    <span class="font-1-xs cor-6 fadeInLeft" data-anime="200"><img class="icone-estoque" src="../img/icones/estoque.svg" alt="ícone de estoque">18 em estoque</span>
                 </div>
                 <h2 class="font-1-xs cor-0 h2">Informações</h2>
-                <ul class="bicicleta-informacoes">
+                <ul class="bicicleta-informacoes fadeInLeft" data-anime="200">
                     <li>
                         <img src="../img/icones/eletrica.svg" alt="ícone bicicleta elétrica">
                         <h3 class="font-1-m cor-0">Motor Elétrico</h3>
@@ -76,7 +79,7 @@
                     </li>
                 </ul>
                 <h2 class="font-1-xs cor-0">Ficha Técnica</h2>
-                <ul class="bicicleta-ficha font-2-s cor-4"> 
+                <ul class="bicicleta-ficha font-2-s cor-4 fadeInLeft" data-anime="200"> 
                     <li>Peso<span>9kg</span></li>
                     <li>Altura<span>60 cm</span></li>
                     <li>Largura<span>120 cm</span></li>
@@ -164,7 +167,7 @@
             <p class="footer-copy font-2-m cor-6">Bikcraft © Alguns direitos reservados.</p>
         </div>
     </footer>
-    
+<script src="../js/plugins/simple-anime.js"></script>;
 <script src="../js/script.js"></script>
 </body>
 </html>

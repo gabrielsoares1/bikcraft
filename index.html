@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bikcraft - Bicicletas elétricas</title>
     <meta name="description" content="Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikcraft.">
-    <link rel="preload" href="./css/style.css" as="style">
-    <link rel="stylesheet" href="./css/style.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-
-    <script>document.documentElement.classList.add('js');</script>
+    <link rel="shortcut icon" href="./favicon.svg" type="image+xml" type="image/x-icon">
+    <link rel="preload" href="./css/style.min.css" as="style">
+    <link rel="stylesheet" href="./css/style.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+<script>document.documentElement.classList.add('js');</script>
 </head>
 
 <body>
@@ -52,7 +53,7 @@
         <ul>
             <li>
                 <a href="./bicicletas/magic.html">
-                    <img src="./img/bicicletas/magic-home.jpg" width="920" height="1040" alt="Bicicleta Preta">
+                    <img src="./img/bicicletas/magic-home.jpg" class="fadeInDown" data-anime="200" width="920" height="1040" alt="Bicicleta Preta">
                     <h3 class="font-1-xl">Magic Might</h3>
                     <span class="font-2-m cor-8">R$ 2499</span>
                 </a>
@@ -60,7 +61,7 @@
 
             <li>
                 <a href="./bicicletas/nimbus.html">
-                    <img src="./img/bicicletas/nimbus-home.jpg" width="920" height="1040" alt="Bicicleta Preta">
+                    <img src="./img/bicicletas/nimbus-home.jpg" class="fadeInDown" data-anime="200" width="920" height="1040" alt="Bicicleta Preta">
                     <h3 class="font-1-xl">Nimbus Stark</h3>
                     <span class="font-2-m cor-8">R$ 4999</span>
                 </a>
@@ -68,7 +69,7 @@
 
             <li>
                 <a href="./bicicletas/nebula.html">
-                    <img src="./img/bicicletas/nebula-home.jpg" width="920" height="1040" alt="Bicicleta Preta">
+                    <img src="./img/bicicletas/nebula-home.jpg" class="fadeInDown" data-anime="200" width="920" height="1040" alt="Bicicleta Preta">
                     <h3 class="font-1-xl">Nebula Cosmic</h3>
                     <span class="font-2-m cor-8">R$ 3999</span>
                 </a>
@@ -146,7 +147,7 @@
                     <li>Suporte 08h às 18h</li>
                     <li>Cobertura estadual</li>
                 </ul>
-                <a class="botao secundario" href="./orcamento.html">Inscreva-se</a>
+                <a class="botao secundario" href="./orcamento.html?tipo=seguro&produto=prata">Inscreva-se</a>
             </div>
 
             <div class="seguros-item">
@@ -161,7 +162,7 @@
                     <li>Desconto em parceiros</li>
                     <li>Acesso ao Clube Bikcraft</li>
                 </ul>
-                <a class="botao" href="./orcamento.html">Inscreva-se</a>
+                <a class="botao" href="./orcamento.html?tipo=seguro&produto=ouro">Inscreva-se</a>
             </div>
         </div>
     </article>

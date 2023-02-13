@@ -6,9 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato | Bikcraft</title>
     <meta name="description" content="Contato">
-    <link rel="preload" href="./css/style.css" as="style">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./favicon.svg" type="image+xml" type="image/x-icon">
+    <link rel="preload" href="./css/style.min.css" as="style">
+    <link rel="stylesheet" href="./css/style.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
 <script>document.documentElement.classList.add('js');</script>
 </head>
 
@@ -37,7 +41,7 @@
             </div>
         </div>
 
-        <div class="contato container">
+        <div class="contato container fadeInDown" data-anime="200">
             <section class="contato-dados" aria-label="Endereço">
                 <h2 class="font-1-m cor-0">Loja Online</h2>
                 <div class="contato-endereco font-2-s cor-4">
@@ -46,8 +50,8 @@
                 </div>
 
                 <address class="contato-meios font-2-s cor-4">
-                    <a href="mailto:vendas@bikcraft.com">vendas@bikcraft.com</a>
-                    <a href="mailto:assistencia@bikcraft.com">assistencia@bikcraft.com</a>
+                    <a href="mailto:vendas@bikcraft.com">bikcraft@gabrielsoares.dev.br</a>
+                    <a href="mailto:assistencia@bikcraft.com">bikcraft@gabrielsoares.dev.br</a>
                     <a href="tel:+5521999999999">+55 21 9999-9999</a>
                 </address>
 
@@ -65,7 +69,7 @@
             </section>
 
             <section class="contato-formulario" aria-label="formulario">
-                <form class="form" action="./contato.html">
+                <form class="form" action="./enviar.php" method="post">
                     <div>
                         <label for="nome">Nome</label>
                         <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
@@ -78,7 +82,7 @@
 
                     <div class="col-2">
                         <label for="email">Email</label>
-                        <input type="email" id="email" name="email" placeholder="exemplo@bikcraft.com">
+                        <input type="email" id="email" name="email" placeholder="bikcraft@gabrielsoares.dev.br">
                     </div>
 
                     <div class="col-2">
@@ -91,7 +95,7 @@
         </div>
     </main>
 
-    <article class="lojas container">
+    <article class="lojas container fadeInDown" data-anime="400">
             <h2 class="font-1-xxl">lojas locais <span class="cor-p1">.</span></h2>
             <div class="lojas-item">
                 <img src="./img/lojas/rj.jpg" alt="Mapa marcando o endereço em Rua Ali Perto, 42 - Rio de Janeiro - RJ">
@@ -102,7 +106,7 @@
                         <p>Rio de Janeiro - RJ</p>
                     </div>
                     <div class="lojas-dados font-2-s cor-8">
-                        <a href="mailto:rj@bikcraft.com">rj@bikcraft.com</a>
+                        <a href="mailto:bikcraft@gabrielsoares.dev.br">bikcraft@gabrielsoares.dev.br</a>
                         <a href="tel:+5521999999999">+55 21 9999-9999</a>
                     </div>
                     <p class="lojas-tempo font-1-s"><img src="./img/icones/horario.svg" alt=""> 08-18h de seg à dom</p>
@@ -121,7 +125,7 @@
                     </div>
 
                     <div class="lojas-dados font-2-s cor-8">
-                        <a href="mailto:sp@bikcraft.com">sp@bikcraft.com</a>
+                        <a href="mailto:bikcraft@gabrielsoares.dev.br">bikcraft@gabrielsoares.dev.br</a>
                         <a href="tel:+5511999999999">+55 11 9999-9999</a>
                     </div>
                     <p class="lojas-tempo font-1-s"><img src="./img/icones/horario.svg" alt=""> 08-18h de seg à dom</p>
@@ -136,7 +140,7 @@
                 <h3 class="font-2-1-b cor-0">CONTATO</h3>
                 <ul class="font-2-m cor-5">
                     <li><a href="tel:+5521999999999">+55 21 9999-9999</li></a>
-                    <li><a href="mailto:contato@bikcraft.com">contato@bikcraft.com</li></a>
+                    <li><a href="mailto:bikcraft@gabrielsoares.dev.br">bikcraft@gabrielsoares.dev.br</li></a>
                     <li>Rua Ali Perto, 42 - Botafogo</li>
                     <li>Rio de Janeiro - RJ</li>
                 </ul>
@@ -168,7 +172,7 @@
             <p class="footer-copy font-2-m cor-6">Bikcraft © Alguns direitos reservados.</p>
         </div>
     </footer>
-    
+<script src="./js/plugins/simple-anime.js"></script>;
 <script src="./js/script.js"></script>
 </body>
 </html>
