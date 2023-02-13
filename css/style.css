@@ -17,6 +17,7 @@
 @import "./componentes/container.css";
 @import "./componentes/titulo.css";
 @import "./componentes/formulario.css";
+@import "./componentes/animacao.css";
 
 @import "./bicicletas/bicicletas-lista.css";
 @import "./bicicletas/bicicletas.css";
